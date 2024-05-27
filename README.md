@@ -31,12 +31,17 @@ Model 02:
 Model 03:
 ![image](https://github.com/tristanperry17/deep_learning_challenge/assets/152734634/0132d7b9-c249-4bb2-8fe8-48d9172a4d56)
 
-Model 04:
+Model 04: This model includes an added layer of 10 neurons in an attempt to optimize performance
 ![image](https://github.com/tristanperry17/deep_learning_challenge/assets/152734634/240b8537-7d17-409f-8cff-a85a0a431e9d)
 
 Model 05:
 ![image](https://github.com/tristanperry17/deep_learning_challenge/assets/152734634/93d84987-15b7-46bd-b64c-297eb3bbefe8)
 
 Were you able to achieve the target model performance?
+Target performance was 75, all versions of this model fall short of this. The highest score of 73 was achieved by Model 05.
+
 What steps did you take in your attempts to increase model performance?
+First was a reduction in feature variables that may have introduced confusion to the model, then a changes in layers and neurons were attempted. Model 05 reverts to the original network layout, but uses a different optimizer "NADAM" instead of "ADAM" in an attempt to better train the model.
+
 Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+Results fall short of the desired performance, more advanced optimizers that require installation could improve performance. Including more layers and experimentation with different activation functions and neuron counts could also improve learning.
