@@ -23,7 +23,19 @@ Compiling, Training, and Evaluating the Model
 How many neurons, layers, and activation functions did you select for your neural network model, and why?bn
 
 Model 01:
+![image](https://github.com/tristanperry17/deep_learning_challenge/assets/152734634/eb6e11ad-219f-46b3-bb66-b5b1c9f4cb83)
 
+Model 02:
+![image](https://github.com/tristanperry17/deep_learning_challenge/assets/152734634/49477a2a-a9e6-453a-9a45-36c643ae19e1)
+
+Model 03:
+![image](https://github.com/tristanperry17/deep_learning_challenge/assets/152734634/0132d7b9-c249-4bb2-8fe8-48d9172a4d56)
+
+Model 04:
+![image](https://github.com/tristanperry17/deep_learning_challenge/assets/152734634/240b8537-7d17-409f-8cff-a85a0a431e9d)
+
+Model 05:
+![image](https://github.com/tristanperry17/deep_learning_challenge/assets/152734634/93d84987-15b7-46bd-b64c-297eb3bbefe8)
 
 Were you able to achieve the target model performance?
 What steps did you take in your attempts to increase model performance?
