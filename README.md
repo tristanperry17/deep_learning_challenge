@@ -6,16 +6,19 @@ This analysis attempts to build and train a predictive model for charity funding
 
 Results: Using bulleted lists and images to support your answers, address the following questions:
 
-Data Preprocessing
+Data Preprocessing-
 
 What variable(s) are the target(s) for your model?
+
 Target variable is the "IS_SUCCESSFUL" column.
 This target is consistent across all versions.
 
 What variable(s) are the features for your model?
+
 Features are all other columns in the data set, with the exception of identifying columns like "NAME" and "EID"
 
 What variable(s) should be removed from the input data because they are neither targets nor features?
+
 Variables were removed as features in some versions of the model. "SPECIAL_CONSIDERATIONS" and "AFFILIATION" are some variables removed in certain versions of the model in an attempt to optimize by reducing confusion by unhelpful metrics.
 
 Compiling, Training, and Evaluating the Model
@@ -38,10 +41,13 @@ Model 05:
 ![image](https://github.com/tristanperry17/deep_learning_challenge/assets/152734634/93d84987-15b7-46bd-b64c-297eb3bbefe8)
 
 Were you able to achieve the target model performance?
+
 Target performance was 75, all versions of this model fall short of this. The highest score of 73 was achieved by Model 05.
 
 What steps did you take in your attempts to increase model performance?
+
 First was a reduction in feature variables that may have introduced confusion to the model, then a changes in layers and neurons were attempted. Model 05 reverts to the original network layout, but uses a different optimizer "NADAM" instead of "ADAM" in an attempt to better train the model.
 
 Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+
 Results fall short of the desired performance, more advanced optimizers that require installation could improve performance. Including more layers and experimentation with different activation functions and neuron counts could also improve learning.
